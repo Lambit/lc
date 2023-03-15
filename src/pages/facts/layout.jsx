@@ -7,7 +7,7 @@ import croc from '../../../public/croc.jpeg';
 import sad from '../../../public/sad.png';
 
 
-export function FactItem() {
+export default function FactItem() {
 	const ref = useRef(null);
   	const [isPresent, safeToRemove] = usePresence();
 

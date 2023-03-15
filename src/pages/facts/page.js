@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, } from "react";
 import { AnimatePresence, motion, usePresence } from "framer-motion";
-import { FactItem } from "@/pages/facts/layout";
+import  FactItem  from "@/pages/facts/layout";
 import styles from './styles.module.css'
 
 export default function FactsPage() {
