@@ -1,0 +1,48 @@
+.threeDButton{
+  display: flex;
+  background-clip: border-box;
+  align-self: center;
+  margin-bottom: 2vh;
+  background: linear-gradient(360deg, rgb(128, 0, 128), #da70d6);
+  color: transparent;
+  border: none;
+  padding: 2vh 20vh;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow:  4px 4px 0 #66ffb2, 1px 8px 12px 0 #66ffb2;
+}
+  /* dblue #1a2c54
+  dpurp  #2e0f38
+  fp #8351a8
+  teal #4d7b93
+  lp #b45dbb */
+.font{
+  flex: 1;
+  align-self: center;
+  background-clip: text;
+  font-weight: 700;
+  font-family: "Inter-Bold", "Inter", sans-serif;
+ color:  transparent;
+  background-color: #66ffb2;
+  font-size: 64px;
+  letter-spacing: -2px;
+  text-align: center ;
+  padding-bottom:  10px;
+  text-shadow: 1px 1px 3px #2e0f38;
+}
+
+@media (max-width: 800px) and  (min-width: 0px) {
+  .font{
+    font-size: 36px;
+  }
+  .threeDButton{
+    padding: 6vw;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 50px;
+    box-shadow:  2px 4px 0 #66ffb2, 1px 10px 14px 0 #66ffb2 
+    /* 8px 26px 40px 0 #66ffb2; */
+  }
+
+}
